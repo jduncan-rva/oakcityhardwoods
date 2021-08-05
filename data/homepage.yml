@@ -1,0 +1,129 @@
+############################ banner ##########################
+banner:
+  enable : true
+  title : "Wood tells a beautiful story."
+  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed dia"
+  image : "images/banner.png"
+  # button
+  button:
+    enable : true
+    label : "All Products"
+    link : "products"
+  # demo video
+  video:
+    enable : true
+    videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+
+########################## About ##############################
+about:
+  enable : true
+  title : "About Our Product"
+  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+          clita kasd gubergren,"
+  image : "images/about.png"
+
+
+###################### Call to action ########################
+cta:
+  enable : true
+  title : "Special Discounts!"
+  content : "Available for limited time only. Grab one while you still can!"
+  image : "images/cta.png"
+  overlayImage : "images/cta-overlay.png"
+  button:
+    label : "All Products"
+    link : "products"
+
+######################## raw material #######################
+material:
+  enable : true
+  title : "Woods We're Currently Making With"
+  subtitle : "We vary what we make and how we make it based on what local wood we have available. Here are the primary woods we are currently using."
+  materialItem:
+    # tree loop
+    - title : "Sweetgum"
+      image : "images/trees/sweetgum.jpg"
+      content : "American Sweetgum ([Liquidambar styraciflua](https://en.wikipedia.org/wiki/Liquidambar_styraciflua)) from a fallen backyard tree in Garner, NC."
+      
+    # material item loop
+    - title : "Red Maple"
+      image : "images/trees/red-maple.jpg"
+      content : "Red Maple (Acer rubrum) from a fallen tree near I-40 in Garner, NC."
+      
+    # material item loop
+    - title : "Black Walnut"
+      image : "images/trees/black-walnut.jpg"
+      content : "Black Walnut (Juglans nigra) from a local reseller in Holly Springs, NC."
+      
+    # material item loop
+    - title : "Black Cherry"
+      image : "images/trees/black-cherry.jpg"
+      content : "Black Cherry (Prunus serotina) from a local reseller in Holly Springs, NC."
+
+########################### Advantage #########################
+advantage:
+  enable : false
+  title : "Advantages Of Using <br> Our Product"
+  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
+  image : "images/advantage.png"
+  advantageList:
+    # advantage list loop
+    - listItem : "Extremely lightweight"
+    - listItem : "Excellent breathability"
+    - listItem : "Can increase Cell activation"
+    - listItem : "Glowing Skin In 7 Days"
+    - listItem : "Increasing Glow Of Face"
+    - listItem : "More Beautiful Face Skin"
+
+
+######################## Promo Video ##########################
+video:
+  enable : false
+  title : "How To Use This Product?"
+  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
+  videoThumb : "images/video-thumb.jpg"
+  videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+
+
+######################## Products #############################
+products:
+  enable : true
+  title : "Products List"
+  # product item comes from "content/products"
+
+
+########################## Testimonial ########################
+testimonial:
+  enable : false
+  title : "What People Are Saying <br> About Our Product"
+  testimonialItem:
+    # testimonial item loop
+    - name : "Angelo Perara"
+      image : "images/clients/client-1.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Riya Ventila"
+      image : "images/clients/client-2.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "three" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "john Doe"
+      image : "images/clients/client-3.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Riya Ventila"
+      image : "images/clients/client-2.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "four" # rating star, one to five
